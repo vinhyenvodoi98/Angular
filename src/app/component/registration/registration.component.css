@@ -1,0 +1,29 @@
+.size-form{
+    width: 750;
+    height: 800;
+    text-align: center;
+}
+
+.size-card{
+    left: 30px;
+    top: 10px;
+    width: 620px;
+    height: 40px;
+    text-align: center;
+}
+
+.size-input{
+    left: 30px;
+    width: 620px;
+    height: 200px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
