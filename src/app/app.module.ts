@@ -8,6 +8,8 @@ import {  MatSidenavModule,
           MatCheckboxModule,
           MatFormFieldModule,
           MatInputModule,
+          MatTreeModule,
+          MatIconModule
         } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -15,6 +17,7 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { RegistrationComponent } from './component/registration/registration.component';
 import { HomeComponent } from './component/home/home.component';
 import { LoginComponent } from './component/login/login.component';
+import { TestComponent } from './component/home/test/test.component';
 
 const appRoutes:Routes=[
   { 
@@ -40,7 +43,8 @@ const appRoutes:Routes=[
     NavbarComponent,
     RegistrationComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    TestComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +54,8 @@ const appRoutes:Routes=[
     MatCheckboxModule,
     MatFormFieldModule,
     MatInputModule,
+    MatTreeModule,
+    MatIconModule,
     RouterModule.forRoot([
       {
         path: '',

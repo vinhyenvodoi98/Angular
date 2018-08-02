@@ -9,17 +9,17 @@ import { Router } from '@angular/router';
 })
 export class RegistrationComponent implements OnInit {
 
-  signInForm :FormGroup;
+  // signInForm :FormGroup;
 
   constructor(private router :Router,
-              private formBuilder: FormBuilder
+             
   ) { }
   
   ngOnInit() {
-    this.signInForm= this.formBuilder.group(){
-      email : ['',[Validators.required,Validators.email]],
-      password : ['',Validators.required]
-    }
+    // this.signInForm= this.formBuilder.group(){
+    //   email : ['',[Validators.required,Validators.email]],
+    //   password : ['',Validators.required]
+    // }
   
   }
 

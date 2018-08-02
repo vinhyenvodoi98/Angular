@@ -1,15 +1,15 @@
-.size-form{
+/* .size-form{
     width: 750;
     height: 800;
     text-align: center;
+} */
+
+.fm{
+    padding: 40px;
 }
 
-.size-card{
-    left: 30px;
-    top: 10px;
-    width: 620px;
-    height: 40px;
-    text-align: center;
+.bt{
+    margin-bottom: 20px;
 }
 
 .size-input{
